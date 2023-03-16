@@ -2,8 +2,8 @@
 웹서비스란 
 
 - 네트워크 : 원격으로 떨어져 있는 두 대상 간의 데이터 교화
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5510983c-ba46-4a32-a739-8f71d72dc25f/Untitled.png)
+- 
+![image](https://user-images.githubusercontent.com/43203949/225478492-ac13a1b7-3b81-4134-b80e-af49933e1115.png)
 
 - 여러 사람이 동일한 콘텐츠를 언제/어디서든 제공 받을 수 있는 네트워크 서비스 개발 = 네트워크 기술력 = server/client = 1:N
 - URL(내가 원하는 콘텐츠를 가진 페이지가 있는 위치정보를 표현한 규격)
