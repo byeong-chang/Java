@@ -277,9 +277,9 @@ public class Main{
 
 ### 클래스와 인스턴스의 메모리 관계
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d15e4bb7-7489-47f9-87f9-eb8c93577872/Untitled.png)
+![image](https://user-images.githubusercontent.com/43203949/225479678-8ba28216-58eb-48f0-8838-855b1e12b14a.png)
 
-8aa9ad2ad6ac.png)
+![image](https://user-images.githubusercontent.com/43203949/225479707-1178c0a3-9b0e-4537-af64-cd26d09a8a7a.png)
 
 - 속성의 초기화가 필요함 = 생성자의 역할 = 반드시 public, 주소값을 return하도록 정해져 있기 때문에 return값을 지정해주면 안됨. , 클래스명과 메서드명이 동일해야한다.
 
