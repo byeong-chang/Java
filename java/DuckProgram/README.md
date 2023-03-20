@@ -1,4 +1,4 @@
-## 문제
+## 문제설명
 ![image](https://user-images.githubusercontent.com/43203949/226222801-cf6a70a9-4b1c-48b7-8612-7ef31dd3a7c4.png)
 
 ## UML
