@@ -1,4 +1,4 @@
-package mycom_mytest;
+package Ducks;
 
 import java.awt.Color;
 import java.awt.Graphics;

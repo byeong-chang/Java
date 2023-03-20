@@ -5,6 +5,11 @@ import java.awt.Frame;
 import java.awt.Graphics;
 import java.util.Random;
 
+import Ducks.DecoyDuck;
+import Ducks.Duck;
+import Ducks.MallardDuck;
+import Ducks.RedDuck;
+import Ducks.RubberDuck;
 import mycom_mytest.Interfaces.Cryable;
 import mycom_mytest.Interfaces.Flyable;
 

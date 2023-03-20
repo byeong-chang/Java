@@ -1,7 +1,9 @@
-package mycom_mytest;
+package Ducks;
 
 import java.awt.Graphics;
 import java.util.Random;
+
+import mycom_mytest.MyFrame;
 
 public abstract class Duck {
 	protected int x;
