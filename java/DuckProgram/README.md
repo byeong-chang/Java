@@ -1,7 +1,9 @@
 ## UML
+![image](https://user-images.githubusercontent.com/43203949/226222568-c082c81e-fdca-44e0-a316-6b99032000dd.png)
 
 
 ## 출력예시
+![image](https://user-images.githubusercontent.com/43203949/226222587-b84c76d9-aef9-4da8-8e2d-c6aa1bbed018.png)
 
 ## Main
 
