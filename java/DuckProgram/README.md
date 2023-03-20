@@ -6,7 +6,7 @@
 - Java GUI 출력 클래스 = MyFrame   
 - Duck클래스 = Duck , MallardDuck, RedDuck, RubberDuck, DecoyDuck  
 - interface = Flyable , Cryable  
-![image](https://user-images.githubusercontent.com/43203949/226241771-beaef0ce-b9ef-4100-b0ec-b470ad2da601.png)
+![image](https://user-images.githubusercontent.com/43203949/226254450-e44c3116-b749-47a9-b984-0cc17d107ec2.png)
 
 ## 출력예시
 ![image](https://user-images.githubusercontent.com/43203949/226241461-351f3cf8-6731-460c-a53e-95e3765b785f.png)
