@@ -185,7 +185,8 @@ public class MallardDuck extends Duck{
 	public void Swim(Graphics g) {
 		g.drawString("수영",this.x-INDET_CHECK, this.y);	
 	}
-}```
+}
+```
 
 ## RubberDuck
 
