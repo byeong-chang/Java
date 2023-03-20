@@ -2,7 +2,8 @@
 ![image](https://user-images.githubusercontent.com/43203949/226222801-cf6a70a9-4b1c-48b7-8612-7ef31dd3a7c4.png)
 
 ## UML
-![image](https://user-images.githubusercontent.com/43203949/226222568-c082c81e-fdca-44e0-a316-6b99032000dd.png)
+![image](https://user-images.githubusercontent.com/43203949/226223813-96499071-0170-481d-aa97-dbea5ae922ad.png)
+
 
 
 ## 출력예시
