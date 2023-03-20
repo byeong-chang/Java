@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1304</x>
+      <y>704</y>
+      <w>56</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1320</x>
+      <y>736</y>
+      <w>104</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;90.0;110.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1408</x>
+      <y>832</y>
+      <w>120</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>130.0;10.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1408</x>
+      <y>896</y>
+      <w>120</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>130.0;10.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>512</x>
+      <y>152</y>
+      <w>176</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>&lt;abstract&gt;
+mycom.mytest::Duck
+--
+# x: int
+# y: int
+#DUCK_SIZE = 50: int
+#TEXT_SPACE = 50: int
+#INDENT_CHECK = 10 : int
+--
++Duck(): ctor
++Dislay(Graphics g): void
++quack(Graphics g): void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>32</x>
+      <y>200</y>
+      <w>144</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>mycom.mytest::Main
+--
+--
++main(String[] args): void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>224</x>
+      <y>192</y>
+      <w>176</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>mycom.mytest::MyFrame
+--
+-arr = new Duck[15]:Duck[]
++FRAME_WIDTH = 1000:int
++FRAME_HEIGHT = 800: int
+--
++MyFrame(): ctor
+-makeDucks(): void
++paint(Graphics g): void
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>168</x>
+      <y>216</y>
+      <w>72</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>392</x>
+      <y>232</y>
+      <w>136</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>150.0;10.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>488</x>
+      <y>368</y>
+      <w>152</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>mycom.mytest::RedDuck
+--
+--
++RedDuck()
++Dislay(Graphics g): void
++quack(Graphics g) : void
++Fly(Graphics g) : void
++Swim(Graphics g) : void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>328</x>
+      <y>368</y>
+      <w>152</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>mycom.mytest::MallardDuck
+--
+--
++MallardDuck()
++Dislay(Graphics g): void
++quack(Graphics g) : void
++Fly(Graphics g) : void
++Swim(Graphics g) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>440</x>
+      <y>288</y>
+      <w>96</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>100.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>816</x>
+      <y>368</y>
+      <w>152</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>mycom.mytest::DecoyDuck
+--
+--
++DecoyDuck()
++Dislay(Graphics g): void
++Swim(Graphics g) : void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>648</x>
+      <y>368</y>
+      <w>152</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>mycom.mytest::RubberDuck
+--
+--
++RubberDuck()
++Dislay(Graphics g):void
++bbick(Graphics g) : void
++Swim(Graphics g) : void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>512</x>
+      <y>288</y>
+      <w>96</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>100.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>672</x>
+      <y>288</y>
+      <w>216</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;90.0;30.0;250.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>648</x>
+      <y>288</y>
+      <w>80</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;80.0;100.0</additional_attributes>
+  </element>
+</diagram>
