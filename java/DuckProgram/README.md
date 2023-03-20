@@ -7,7 +7,7 @@
 ## 출력예시
 ![image](https://user-images.githubusercontent.com/43203949/226241461-351f3cf8-6731-460c-a53e-95e3765b785f.png)
 
-Main 클래스 = Main 
-Java GUI 출력 클래스 = MyFrame 
-Duck클래스 = Duck , MallardDuck, RedDuck, RubberDuck, DecoyDuck
-interface = Flyable , Cryable
+### Main 클래스 = Main   
+### Java GUI 출력 클래스 = MyFrame   
+### Duck클래스 = Duck , MallardDuck, RedDuck, RubberDuck, DecoyDuck  
+### interface = Flyable , Cryable  
