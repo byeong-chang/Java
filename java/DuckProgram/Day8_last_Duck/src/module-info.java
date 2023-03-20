@@ -5,6 +5,6 @@
  * @author ¹Îº´Ã¢
  *
  */
-module Day7_GUI3 {
+module Day8_last {
 	requires java.desktop;
 }

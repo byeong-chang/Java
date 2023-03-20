@@ -1,13 +1,17 @@
-package mycom.myhomework;
+package mycom_mytest;
+
 
 import java.awt.Frame;
 import java.awt.Graphics;
 import java.util.Random;
 
+import mycom_mytest.Interfaces.Cryable;
+import mycom_mytest.Interfaces.Flyable;
+
 public class MyFrame extends Frame{
 	public static final int WIDTH = 1000;
 	public static final int HEIGHT = 800;
-	private Duck[] dk = new Duck[15];
+	private Duck[] dk = new Duck[20];
 	
 	
 	public MyFrame() {
@@ -41,28 +45,23 @@ public class MyFrame extends Frame{
 			}
 		}
 	}
-	
+
 	@Override
 	public void paint(Graphics g) {
 
 		for(Duck d : dk) {
 			if(d != null) {
-				d.Display(g);
-				d.Swim(g);
+				d.display(g);
+				d.swim(g);
 				//다운 캐스팅이 일시적으로 가능하다.
-				if(d instanceof MallardDuck) {
-					MallardDuck md = (MallardDuck) d; // 강제 다운 캐스팅 형변환
-					md.quack(g);
-					md.Fly(g);
+				if(d instanceof Flyable) {
+					Flyable fd = (Flyable) d; // 강제 다운 캐스팅 형변환
+					fd.fly(g);
 				}
-				else if(d instanceof RedDuck){
-					RedDuck rd = (RedDuck) d;
-					rd.quack(g);
-					rd.Fly(g);
-				}
-				else if(d instanceof RubberDuck){
-					RubberDuck rubd = (RubberDuck) d;
-					rubd.bbick(g);
+				if(d instanceof Cryable){
+					Cryable cd = (Cryable) d;
+					cd.cry(g);
+				
 				}
 				
 			}

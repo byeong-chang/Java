@@ -1,9 +1,8 @@
-package mycom.myhomework;
+package mycom_mytest;
 
 public class Main {
 
 	public static void main(String[] args) {
 		MyFrame mf = new MyFrame();
 	}
-
 }

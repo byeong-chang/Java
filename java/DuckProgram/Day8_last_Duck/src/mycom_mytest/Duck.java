@@ -1,4 +1,4 @@
-package mycom.myhomework;
+package mycom_mytest;
 
 import java.awt.Graphics;
 import java.util.Random;
@@ -15,6 +15,8 @@ public abstract class Duck {
 		this.x = rnd.nextInt(DUCK_SIZE,MyFrame.WIDTH - DUCK_SIZE);
 		this.y = rnd.nextInt(DUCK_SIZE,MyFrame.HEIGHT-DUCK_SIZE);
 	}
-	public abstract void Swim(Graphics g);
-	public abstract void Display(Graphics g);
+	public void swim(Graphics g) {
+		g.drawString("¼ö¿µ", this.x-INDET_CHECK, this.y);
+	}
+	public abstract void display(Graphics g);
 }
