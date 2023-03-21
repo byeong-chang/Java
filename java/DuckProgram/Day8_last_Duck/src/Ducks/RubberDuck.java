@@ -5,7 +5,7 @@ package Ducks;
 import java.awt.Color;
 import java.awt.Graphics;
 
-import mycom_mytest.Interfaces.Cryable;
+import Interfaces.Cryable;
 
 public class RubberDuck extends Duck implements Cryable{
 

@@ -1,4 +1,4 @@
-package mycom_mytest.Interfaces;
+package Interfaces;
 
 import java.awt.Graphics;
 

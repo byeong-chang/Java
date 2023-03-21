@@ -4,8 +4,8 @@ package Ducks;
 import java.awt.Color;
 import java.awt.Graphics;
 
-import mycom_mytest.Interfaces.Cryable;
-import mycom_mytest.Interfaces.Flyable;
+import Interfaces.Cryable;
+import Interfaces.Flyable;
 
 public class MallardDuck extends Duck implements Flyable , Cryable{
 	
